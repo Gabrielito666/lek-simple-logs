@@ -1,0 +1,11 @@
+{
+  "name": "lek-simple-logs",
+  "version": "1.0.0",
+  "description": "'little package to more simples logs in console'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'Gabriel Farías'",
+  "license": "ISC"
+}
