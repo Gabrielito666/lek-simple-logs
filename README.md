@@ -58,3 +58,15 @@ log.label('My Label')
 -------------------------------------------- My Label ----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 ```
+
+## 1.0.1
+
+Since version 1.0.1 lek-simple-logs includes the getter enter that makes a line break in the console, enters that makes 10 line breaks, the log method that makes a simple console.log, the color method that receives an ANSI color code and the getters red, green, yellow and blue that change the color of the following logs.
+
+also now both getters and methods return this, which allows to chain methods and getters.
+
+ej:
+
+```javascript
+log.label('My Label').line.red.log('my log').green.lines.enter.log('my other log'); //etc
+```
